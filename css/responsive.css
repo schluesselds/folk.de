@@ -1,0 +1,188 @@
+@media all and (max-width:1120px) {
+
+	.wrapper-header-phone {
+		display: none;
+	}
+
+	.wrapper-header-menu {
+		position: absolute;
+		top: 0;
+		left: -320px;
+		bottom: 0;
+		height: 100vh;
+		background-color: var(--color-dark);
+		width: 320px;
+		padding: 20px 40px;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		overflow: auto;
+		display: block;
+	}
+
+	#openmenu,
+	#closemenu {
+		display: inline-block;
+	}
+
+	#closemenu {
+		float: right;
+		margin-bottom: 30px;
+	}
+
+	.menu {
+		clear: both;
+	}
+
+	.menu li {
+		float: none;
+		margin-left: 0px;
+		margin-bottom: 20px;
+	}
+
+}
+
+@media all and (max-width:900px) {
+
+	.wrapper-header-content>div {
+		width: 100%;
+	}
+
+	.wrapper-edge {
+		position: absolute;
+		top: 0;
+		left: 50%;
+		-webkit-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+		-webkit-box-pack: start;
+		-ms-flex-pack: start;
+		justify-content: flex-start;
+	}
+
+	.single-edge {
+		width: 50%;
+		background-color: var(--color-yellow);
+		padding: 40px;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		-webkit-box-shadow: 0px 15px 40px -5px rgb(0 0 0 / 10%);
+		box-shadow: 0px 15px 40px -5px rgb(0 0 0 / 10%);
+		color: var(--color-dark);
+		margin-left: 0px;
+	}
+
+	.about-content {
+		width: 100%;
+		padding-right: 0px;
+		margin-bottom: 50px;
+	}
+
+	.about-img {
+		width: 100%;
+	}
+
+	.wrapper-statistics {
+		max-width: 1400px;
+		position: static;
+		left: 0%;
+		-webkit-transform: translate(0%, 0%);
+		-ms-transform: translate(0%, 0%);
+		transform: translate(0%, 0%);
+		margin-top: 50px;
+	}
+
+	.statistics-single {
+		width: 50%;
+	}
+
+	.title-services {
+		width: 100%;
+		margin-bottom: 50px;
+	}
+
+	.title-services-content {
+		width: 100%;
+		padding-left: 60px;
+	}
+
+	#services {
+		padding-top: 100px;
+	}
+
+	.wrapper-services article {
+		width: calc(50% - 20px);
+	}
+
+	.wrapper-pricing article {
+		width: calc(50% - 20px);
+	}
+
+	.testimonials-content {
+		width: 100%;
+		padding-right: 0px;
+		margin-bottom: 50px;
+	}
+
+	.testimonials-carousel {
+		width: 100%;
+		padding-left: 60px;
+	}
+
+	#appointment {
+		width: 100%;
+		padding-right: 0px;
+		margin-bottom: 50px;
+	}
+
+	#contact {
+		width: 100%;
+	}
+}
+
+@media all and (max-width:600px) {
+
+	.single-edge {
+		width: 100%;
+	}
+
+	.wrapper-edge {
+		position: static;
+		top: 0;
+		left: 0%;
+		-webkit-transform: translate(0%, 0%);
+		-ms-transform: translate(0%, 0%);
+		transform: translate(0%, 0%);
+	}
+
+	#about {
+		padding-top: 0px;
+	}
+
+	.statistics-single {
+		width: 100%;
+	}
+
+	.wrapper-services article {
+		width: calc(100% - 20px);
+	}
+
+	.wrapper-pricing article {
+		width: calc(100% - 20px);
+	}
+
+	.wrapper-input input {
+		width: calc(100% - 0px);
+	}
+}
+
+@media all and (max-width: 440px) {
+
+	h1 {
+		font-size: 50px;
+	}
+
+	h2 {
+		font-size: 35px;
+	}
+
+}
